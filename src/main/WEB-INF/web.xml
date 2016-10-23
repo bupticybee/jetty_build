@@ -1,3 +1,5 @@
+
+<web-app>
 <servlet>
     <servlet-class>com.example.HelloWorldServlet</servlet-class>  
     <servlet-name>HelloWorldServlet</servlet-name>                   
@@ -6,3 +8,4 @@
     <servlet-name>HelloWorldServlet</servlet-name>
     <url-pattern>/*</url-pattern>                                 
 </servlet-mapping>
+</web-app>
