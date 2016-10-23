@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-class>com.example.HelloWorldServlet</servlet-class>  
+    <servlet-name>HelloWorldServlet</servlet-name>                   
+</servlet>
+<servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/*</url-pattern>                                 
+</servlet-mapping>
