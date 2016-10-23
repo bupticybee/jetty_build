@@ -7,4 +7,5 @@ ADD pom.xml pom.xml
 ADD run.sh run.sh
 ADD src src
 
-CMD mvn org.mortbay.jetty:jetty-maven-plugin:run
+CMD mvn package
+
